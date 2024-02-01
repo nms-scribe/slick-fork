@@ -7,7 +7,7 @@
 	<dependency type="executable" location="extensions">slick_layer_combinator.py</dependency>
 
 	<label appearance="header">Option layers to cycle through:</label>
-	<param name="all" type="optiongroup" gui-text="">
+	<param name="all" type="optiongroup" gui-text=" ">
 		<option value="true">Find and create exports for all option layers.</option>
 		<option value="false">Create exports for only the following option layer(s) . . . . . . . . . . . .</option>
 	</param>
@@ -15,7 +15,7 @@
 	<label indent="4">Enter one or more layer names separated by commas.</label>
 	<separator />
 	<label appearance="header">File export path:</label>
-	<param name="directory" type="path" mode="folder" gui-text=""></param>
+	<param name="directory" type="path" mode="folder" gui-text=" "></param>
 
 	<effect needs-document="true" needs-live-preview="false">
 		<effects-menu hidden="false">
