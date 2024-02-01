@@ -1,3 +1,5 @@
+*NOTE: This is a fork of the original project at [https://github.com/juanitogan/slick] which removes the `Attempting to translate an empty string in extension` error on starting Inkscape*
+
 # SLiCk
 
 **SLiCk** : the Slick Layer Combinator for Inkscape
